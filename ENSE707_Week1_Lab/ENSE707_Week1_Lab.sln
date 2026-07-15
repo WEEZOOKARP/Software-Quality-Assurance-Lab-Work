@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENSE707_Week1_Lab", "ENSE707_Week1_Lab\ENSE707_Week1_Lab.csproj", "{271069F0-6519-49F7-A368-033ECFC29C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENSE707_Week1_Lab.Tests", "ENSE707_Week1_Lab.Tests\ENSE707_Week1_Lab.Tests.csproj", "{AEA37D4A-0888-44F3-946F-A3C89B3459F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{271069F0-6519-49F7-A368-033ECFC29C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{271069F0-6519-49F7-A368-033ECFC29C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{271069F0-6519-49F7-A368-033ECFC29C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA37D4A-0888-44F3-946F-A3C89B3459F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA37D4A-0888-44F3-946F-A3C89B3459F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA37D4A-0888-44F3-946F-A3C89B3459F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA37D4A-0888-44F3-946F-A3C89B3459F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

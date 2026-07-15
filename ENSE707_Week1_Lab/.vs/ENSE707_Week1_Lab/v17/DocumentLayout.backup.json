@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEA37D4A-0888-44F3-946F-A3C89B3459F6}|ENSE707_Week1_Lab.Tests\\ENSE707_Week1_Lab.Tests.csproj|c:\\users\\weezo\\desktop\\software quality assurance lab work\\ense707_week1_lab\\ense707_week1_lab.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA37D4A-0888-44F3-946F-A3C89B3459F6}|ENSE707_Week1_Lab.Tests\\ENSE707_Week1_Lab.Tests.csproj|solutionrelative:ense707_week1_lab.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271069F0-6519-49F7-A368-033ECFC29C80}|ENSE707_Week1_Lab\\ENSE707_Week1_Lab.csproj|c:\\users\\weezo\\desktop\\software quality assurance lab work\\ense707_week1_lab\\ense707_week1_lab\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271069F0-6519-49F7-A368-033ECFC29C80}|ENSE707_Week1_Lab\\ENSE707_Week1_Lab.csproj|solutionrelative:ense707_week1_lab\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{271069F0-6519-49F7-A368-033ECFC29C80}|ENSE707_Week1_Lab\\ENSE707_Week1_Lab.csproj|c:\\users\\weezo\\desktop\\software quality assurance lab work\\ense707_week1_lab\\ense707_week1_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271069F0-6519-49F7-A368-033ECFC29C80}|ENSE707_Week1_Lab\\ENSE707_Week1_Lab.csproj|solutionrelative:ense707_week1_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab.Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "ENSE707_Week1_Lab.Tests\\Test1.cs",
+              "ToolTip": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab.Tests\\Test1.cs",
+              "RelativeToolTip": "ENSE707_Week1_Lab.Tests\\Test1.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwDAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T01:05:05.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab\\bankAccount.cs",
+              "RelativeDocumentMoniker": "ENSE707_Week1_Lab\\bankAccount.cs",
+              "ToolTip": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab\\bankAccount.cs",
+              "RelativeToolTip": "ENSE707_Week1_Lab\\bankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T00:16:17.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab\\Program.cs",
               "RelativeDocumentMoniker": "ENSE707_Week1_Lab\\Program.cs",
               "ToolTip": "C:\\Users\\weezo\\Desktop\\Software Quality Assurance Lab Work\\ENSE707_Week1_Lab\\ENSE707_Week1_Lab\\Program.cs",
               "RelativeToolTip": "ENSE707_Week1_Lab\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T21:02:24.102Z",
               "EditorCaption": ""

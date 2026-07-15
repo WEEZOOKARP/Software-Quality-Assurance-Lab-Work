@@ -1,46 +1,54 @@
 ﻿using System;
 
+namespace ENSE707_Week1_Lab;
+
 public class BankAccount
 {
-	private float balance;
-    public int accountID;
-	public BankAccount(int accountIdentifier)
+	//Visual Studio was throwing a fit over these 
+	//public string AccountHolder = { get, set };
+	//public decimal Balance = { get, private set};
+
+	public string AccountHolder;
+	public decimal Balance;
+
+	public BankAccount(string accountholder, decimal openingBalance)
 	{
-		balance = 0;
-		accountID = accountIdentifier;
+		if (string.IsNullOrWhiteSpace(accountholder) || openingBalance < 0)
+		{
+			throw new ArgumentException("Account Holder field must be provided and opening balance must be >= 0");
+		}
+
+		AccountHolder = accountholder;
+		Balance = openingBalance;
 	}
 
-	public float getBalance()
+	//Deposit Funds into account, returns nothing, takes decimal input
+	public void Deposit(decimal amount)
 	{
-        return this.getBalanceImpl();
+		if (amount > 0)
+		{
+			Balance += amount;
+			return;
+		}
+		throw new ArgumentException("Deposit amount must be more than 0");
+	}
+	//Withdraw funds, returns true, takes decimal input. No Validation
+	public bool Withdraw(decimal amount)
+	{
+		if (Balance >= amount) {
+			Balance -= amount;
+			return true;
+		}
+		throw new ArgumentException("You cannot withdraw more than your balance!");
 	}
 
-	private float getBalanceImpl()
+	//Calculates the transaction fee for the provided amount
+	public decimal CalculateTransactionFee(decimal amount)
 	{
-		return this.balance;
+        if (amount > 0)
+        {
+	        return amount * 0.02m; // Hardcoded...        
+        }
+		throw new ArgumentException("Input must be positive!");
 	}
-
-    public void deposit(float value)
-    {
-        if (value <= 0)
-            throw new ArgumentException("You cannot deposit values less than or equal to 0");
-        
-        this.depositImpl(value);
-    }
-    private void depositImpl(float value)
-    {
-        this.balance += value;
-    }
-
-    public void withdraw(float value)
-    {
-        if (value <= 0)
-            throw new ArgumentException("You cannot withdraw values less than or equal to 0");
-
-        this.withdrawImpl(value);
-    }
-    private void withdrawImpl(float value)
-    {
-        this.balance -= value;
-    }
 }
