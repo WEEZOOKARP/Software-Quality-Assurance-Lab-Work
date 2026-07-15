@@ -1,16 +1,28 @@
-﻿class Core
+﻿using Microsoft.VisualBasic;
+
+class Core
 {
     BankAccount account;
     int accounts = 0;
-    public void Main(String[] args)
+    public static void Main(String[] args)
     {
-        Console.WriteLine("Banking System ---");
-        interactionScreen();
+        Core core = new Core();
+        core.interactionScreen();
     }
 
+    float getLocalBalance()
+    {
+        if (account)
+        {
+            return account.getBalance();
+        }
+        return 0.0f;
+    }
     void interactionScreen()
     {
-        String[] items = {"1 - Create account", "2 - Deposit", "3 - Withdraw"};
+        Console.WriteLine();
+        Console.WriteLine("Banking System --- BALANCE : $" + getLocalBalance());
+        String[] items = {"1 - Create account", "2 - Deposit", "3 - Withdraw", "4 - Admin"};
 
         foreach (var item in items)
         {
@@ -24,6 +36,7 @@
             case "1":
                 accounts++;
                 account = new BankAccount(accounts);
+                Console.WriteLine("Account created, ID : " + accounts);
                 break;
             case "2":
                 Console.WriteLine("How much would you like to deposit?");
@@ -40,5 +53,6 @@
                 }
                 break;
         };
+        interactionScreen();
     }
 }
